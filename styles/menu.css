@@ -1,0 +1,38 @@
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: darkgreen;
+    padding: 8px;
+    min-width: 80;
+    text-align: center;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu>ul ul {
+    display: none;
+}
+
+.menu ul li:hover {
+    background-color: darkslategray;
+}
+
+.menu ul li:hover>ul {
+    display: initial;
+    position: absolute;
+    top: 1.7em;
+    left: 0;
+}
+
+.menu ul li:hover>ul>li {
+    display: block;
+}

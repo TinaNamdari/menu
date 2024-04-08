@@ -1,11 +1,12 @@
-body{
-    background-color: rgb(177, 176, 176);
+body {
+    background-color: rgb(159, 171, 160);
     margin: 0;
 }
-.banner{
+
+.banner {
     background-color: darkgreen;
     color: yellow;
     font-size: x-large;
-    padding: 60px 0;
+    padding: 40px 0;
     text-align: center;
 }
